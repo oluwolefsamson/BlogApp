@@ -5,7 +5,9 @@ import Pagination from '../Pagination/Pagination'
 const CardList = () => {
   return (
     <div className={styles.container}>
-        < Pagination />
+      CardList
+      < Pagination />
+        
     </div>
   )
 }

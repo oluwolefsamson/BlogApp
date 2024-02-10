@@ -3,7 +3,27 @@ import styles from './Featured.module.css'
 
 const Featured = () => {
   return (
-    <div className={styles.container}>Featured</div>
+    <div className={styles.container}>
+      <h1 className={styles.title}>
+        <b>Welcome to Oluwole Samson Blog!</b> Discover stories and ideas
+      </h1>
+      <div className={styles.post}>
+        <div className={styles.imgContainer}>
+          <img src='/p1.jpg' alt=''fill className={styles.image}/>
+        </div>
+        <div className={styles.textContainer}>
+          <h1 className={styles.postTitle}>Embark on an Adventure: Explore Oluwole Samson's Blog</h1>
+          <p className={styles.postDesc}>
+            Step into a realm of boundless inspiration at Oluwole Samson's Blog.
+             Immerse yourself in captivating narratives, delve into insightful
+              articles, and unlock a world of endless possibilities. Join our
+               community of explorers today and embark on an unforgettable adventure
+                of knowledge and discovery!
+          </p>
+          <button className={styles.button}>Read More</button>
+        </div>
+      </div>
+    </div>
   )
 }
 
