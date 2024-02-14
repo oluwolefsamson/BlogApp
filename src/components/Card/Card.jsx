@@ -7,14 +7,14 @@ const Card = () => {
   return (
     <div className={styles.container}>
         <div className={styles.imageContainer}>
-            <Image src='/p1.jpg' alt=''fill className={styles.image}/>
+            <Image src="/p1.jpg" alt=""fill className={styles.image}/>
           </div>
           <div className={styles.textContainer}>
             <div className={styles.detail}>
                 <span className={styles.date}>14.02.2024 - </span>
                 <span className={styles.category}>CULTURE</span>
             </div>
-            <Link href='/'>
+            <Link href="/">
                 <h1 className={styles}>Embark on an Adventure:
                 Explore Oluwole Samson's Blog
                 </h1>
@@ -27,7 +27,7 @@ const Card = () => {
                 explorers today and embark on an unforgettable
                  adventure of knowledge and discovery
             </p>
-            <Link href='/' className={styles.link}>Read More</Link>
+            <Link href="/" className={styles.link}>Read More</Link>
           </div>
     </div>
   )

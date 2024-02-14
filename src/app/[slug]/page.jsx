@@ -13,7 +13,7 @@ const SinglePage = () => {
                  Embark on an Adventure.</h1>
                  <div className={styles.user}>
                     <div className={styles.userImageContainer}>
-                        < Image src='/p1.jpg' alt='' fill className={styles.avatar} />
+                        < Image src="/p1.jpg" alt="" fill className={styles.avatar} />
                     </div>
                     <div className={styles.userTextContainer}>
                         <span className={styles.username}>Faith Feyisike</span>
@@ -22,13 +22,13 @@ const SinglePage = () => {
                 </div>
             </div>
             <div className={styles.imageContainer}>
-                < Image src='/p1.jpg' alt='' fill className={styles.image} />
+                < Image src="/p1.jpg" alt="" fill className={styles.image} />
             </div>
         </div>
         <div className={styles.content}>
             <div className={styles.post}>
                 <div className={styles.description}>
-                    <p className="">
+                    <p>
                     Welcome to Samtech, your go-to destination
                      for insightful articles, helpful tips, and engaging stories.
                       Whether you're looking for inspiration, practical advice, or
@@ -52,7 +52,7 @@ const SinglePage = () => {
                           of readers and explore the world of ideas with us!
                     </p>
 
-                    <p className="">
+                    <p>
                     Welcome to Samtech, your go-to destination
                      for insightful articles, helpful tips, and engaging stories.
                       Whether you're looking for inspiration, practical advice, or

@@ -5,25 +5,25 @@ import Link from 'next/link'
 
 const Comments = () => {
 
-    const status = 'authenticated'
+    const status = "authenticated"
   return (
 
     <div className={styles.container}>
         <h1 className={styles.title}>Comments</h1>
-        {status === 'authenticated' ? (
+        {status === "authenticated" ? (
             <div className={styles.write}>
                 <textarea placeholder='Write a Comment...' className={styles.input} />
                 <button className={styles.button}>Send</button>
             </div>
             ) : (
-            <Link href='/login'>Login to write a comment</Link>
+            <Link href="/login">Login to write a comment</Link>
         )}
         <div className={styles.comments}>
             <div className={styles.comment}>
                 <div className={styles.user}>
                     < Image
-                     src='/p1.jpg'
-                      alt=''
+                     src="/p1.jpg"
+                      alt=""
                        width={50}
                         height={50}
                          className={styles.image}
@@ -46,8 +46,8 @@ const Comments = () => {
             <div className={styles.comment}>
                 <div className={styles.user}>
                     < Image
-                     src='/p1.jpg'
-                      alt=''
+                     src="/p1.jpg"
+                      alt=""
                        width={50}
                         height={50}
                          className={styles.image}
@@ -70,8 +70,8 @@ const Comments = () => {
             <div className={styles.comment}>
                 <div className={styles.user}>
                     < Image
-                     src='/p1.jpg'
-                      alt=''
+                     src="/p1.jpg"
+                      alt=""
                        width={50}
                         height={50}
                          className={styles.image}
@@ -94,8 +94,8 @@ const Comments = () => {
             <div className={styles.comment}>
                 <div className={styles.user}>
                     < Image
-                     src='/p1.jpg'
-                      alt=''
+                     src="/p1.jpg"
+                      alt=""
                        width={50}
                         height={50}
                          className={styles.image}
@@ -114,10 +114,6 @@ const Comments = () => {
                          let's explore together!
                 </p>
             </div>
-
-            
-
-            
         </div>
     </div>
   )
