@@ -12,7 +12,7 @@ const WritePage = () => {
 
     useEffect(() => {
         // Check if document is defined (client-side environment)
-        if (typeof document !== 'undefined') {
+        if (typeof document !== 'null') {
             // Accessing document here is safe
             // You can perform any client-side operations that involve the DOM
         }
