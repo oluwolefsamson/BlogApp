@@ -1,8 +1,8 @@
-import React from 'react'
-import styles from './singlePage.module.css'
-import Image from 'next/image'
-import Menu from '@/components/Menu/Menu'
-import Comments from '@/components/Comments/Comments'
+import React from 'react';
+import styles from './singlePage.module.css';
+import Image from 'next/image';
+import Menu from '@/components/Menu/Menu';
+import Comments from '@/components/Comments/Comments';
 
 const SinglePage = () => {
   return (
@@ -13,7 +13,7 @@ const SinglePage = () => {
                  Embark on an Adventure.</h1>
                  <div className={styles.user}>
                     <div className={styles.userImageContainer}>
-                        < Image src="/p1.jpg" alt="" fill className={styles.avatar} />
+                        <Image src="/p1.jpg" alt="" className={styles.avatar} fill/>
                     </div>
                     <div className={styles.userTextContainer}>
                         <span className={styles.username}>Faith Feyisike</span>
@@ -22,7 +22,7 @@ const SinglePage = () => {
                 </div>
             </div>
             <div className={styles.imageContainer}>
-                < Image src="/p1.jpg" alt="" fill className={styles.image} />
+                <Image src="/p1.jpg" alt="" className={styles.image} fill />
             </div>
         </div>
         <div className={styles.content}>
@@ -31,10 +31,10 @@ const SinglePage = () => {
                     <p>
                     Welcome to Samtech, your go-to destination
                      for insightful articles, helpful tips, and engaging stories.
-                      Whether you're looking for inspiration, practical advice, or
-                       simply a good read, we've got you covered. From lifestyle and
+                      Whether you&apos;re looking for inspiration, practical advice, or
+                       simply a good read, we&apos;ve got you covered. From lifestyle and
                         wellness to travel and technology, our diverse range of topics
-                         ensures there's something for everyone. Join our community
+                         ensures there&apos;s something for everyone. Join our community
                           of readers and explore the world of ideas with us!
                     </p>
                     <h2 className="">
@@ -45,32 +45,32 @@ const SinglePage = () => {
                     <p className="">
                     Welcome to Samtech, your go-to destination
                      for insightful articles, helpful tips, and engaging stories.
-                      Whether you're looking for inspiration, practical advice, or
-                       simply a good read, we've got you covered. From lifestyle and
+                      Whether you&apos;re looking for inspiration, practical advice, or
+                       simply a good read, we&apos;ve got you covered. From lifestyle and
                         wellness to travel and technology, our diverse range of topics
-                         ensures there's something for everyone. Join our community
+                         ensures there&apos;s something for everyone. Join our community
                           of readers and explore the world of ideas with us!
                     </p>
 
                     <p>
                     Welcome to Samtech, your go-to destination
                      for insightful articles, helpful tips, and engaging stories.
-                      Whether you're looking for inspiration, practical advice, or
-                       simply a good read, we've got you covered. From lifestyle and
+                      Whether you&apos;re looking for inspiration, practical advice, or
+                       simply a good read, we&apos;ve got you covered. From lifestyle and
                         wellness to travel and technology, our diverse range of topics
-                         ensures there's something for everyone. Join our community
+                         ensures there&apos;s something for everyone. Join our community
                           of readers and explore the world of ideas with us!
                     </p>
                 </div>
                 <div className={styles.comment}>
-                    < Comments />
+                    <Comments />
                 </div>
             </div>
-            < Menu />
+            <Menu />
             
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default SinglePage
+export default SinglePage;

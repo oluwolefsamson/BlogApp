@@ -15,8 +15,8 @@ const Menu = () => {
       <h2 className={styles.subtitle}>{"Discover by topic"}</h2>
       <h1 className={styles.title}>Categories</h1>
       < MenuCategories />
-      <h2 className={styles.subtitle}>{"Editor's Choice"}</h2>
-      <h1 className={styles.title}>Editor's pick</h1>
+      <h2 className={styles.subtitle}>{"Editors Choice"}</h2>
+      <h1 className={styles.title}>Editor&apos;s pick</h1>
       <MenuPosts withImage={true}/>
     </div>
   )

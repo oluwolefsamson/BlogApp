@@ -23,7 +23,7 @@ const Comments = () => {
                 <div className={styles.user}>
                     < Image
                      src="/p1.jpg"
-                      alt=""
+                      alt="img"
                        width={50}
                         height={50}
                          className={styles.image}
@@ -36,10 +36,10 @@ const Comments = () => {
                 <p className={styles.desc}>
                      Discover captivating stories, expert advice, and
                      thought-provoking insights across a variety of topics.
-                      Whether you're passionate about food, fashion, finance,
+                      Whether you are passionate about food, fashion, finance,
                        or anything in between, our blog has something for every
                         curious mind. Join us on this journey of discovery and
-                         let's explore together!
+                         let&apos;s explore together!
                 </p>
             </div>
 
@@ -47,7 +47,7 @@ const Comments = () => {
                 <div className={styles.user}>
                     < Image
                      src="/p1.jpg"
-                      alt=""
+                      alt="img"
                        width={50}
                         height={50}
                          className={styles.image}
@@ -60,10 +60,10 @@ const Comments = () => {
                 <p className={styles.desc}>
                      Discover captivating stories, expert advice, and
                      thought-provoking insights across a variety of topics.
-                      Whether you're passionate about food, fashion, finance,
+                      Whether you are passionate about food, fashion, finance,
                        or anything in between, our blog has something for every
                         curious mind. Join us on this journey of discovery and
-                         let's explore together!
+                         let&apos;s explore together!
                 </p>
             </div>
 
@@ -71,7 +71,7 @@ const Comments = () => {
                 <div className={styles.user}>
                     < Image
                      src="/p1.jpg"
-                      alt=""
+                      alt="img"
                        width={50}
                         height={50}
                          className={styles.image}
@@ -84,10 +84,10 @@ const Comments = () => {
                 <p className={styles.desc}>
                      Discover captivating stories, expert advice, and
                      thought-provoking insights across a variety of topics.
-                      Whether you're passionate about food, fashion, finance,
+                      Whether you are passionate about food, fashion, finance,
                        or anything in between, our blog has something for every
                         curious mind. Join us on this journey of discovery and
-                         let's explore together!
+                         let&apos;s explore together!
                 </p>
             </div>
 
@@ -95,7 +95,7 @@ const Comments = () => {
                 <div className={styles.user}>
                     < Image
                      src="/p1.jpg"
-                      alt=""
+                      alt="img"
                        width={50}
                         height={50}
                          className={styles.image}
@@ -108,10 +108,10 @@ const Comments = () => {
                 <p className={styles.desc}>
                      Discover captivating stories, expert advice, and
                      thought-provoking insights across a variety of topics.
-                      Whether you're passionate about food, fashion, finance,
+                      Whether you are passionate about food, fashion, finance,
                        or anything in between, our blog has something for every
                         curious mind. Join us on this journey of discovery and
-                         let's explore together!
+                         let&apos;s explore together!
                 </p>
             </div>
         </div>

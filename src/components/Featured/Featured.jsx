@@ -10,12 +10,12 @@ const Featured = () => {
       </h1>
       <div className={styles.post}>
         <div className={styles.imgContainer}>
-          <Image src="/p1.jpg" alt="" fill className={styles.image}/>
+          <Image src="/p1.jpg" alt="img" className={styles.image} height={450} width={600}/>
         </div>
         <div className={styles.textContainer}>
-          <h1 className={styles.postTitle}>Embark on an Adventure: Explore Oluwole Samson's Blog</h1>
+          <h1 className={styles.postTitle}>Embark on an Adventure: Explore Oluwole Samson&apos;s Blog</h1>
           <p className={styles.postDesc}>
-            Step into a realm of boundless inspiration at Oluwole Samson's Blog.
+            Step into a realm of boundless inspiration at Oluwole Samson&apos;s Blog.
              Immerse yourself in captivating narratives, delve into insightful
               articles, and unlock a world of endless possibilities. Join our
                community of explorers today and embark on an unforgettable adventure
